@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+NKo&family=Satisfy&family=Zilla+Slab:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans NKo", sans-serif;
+  font-family: "Satisfy", cursive;
+  color: aliceblue;
+  font-family: "Zilla Slab", serif;
+}
+body {
+  background-color: black;
+}
+.container {
+  width: 55vh;
+  height: 92vh;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: 1px 2px 44px 4px red;
+}
+.image_container {
+  text-align: center;
+
+  width: 50vh;
+  margin: auto;
+  margin-top: 30px;
+  height: 46%;
+}
+img {
+  width: 75%;
+  margin-top: 70px;
+}
+#title_artie_track {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 79px;
+  width: 40vh;
+  margin: auto;
+  margin-top: 150px;
+}
+#artie_name {
+  font-size: 25px;
+}
+.container_like_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px;
+}
+#song_title {
+  font-size: 15px;
+}
+#favorite {
+  font-size: 30px;
+}
+#button {
+  background: transparent;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  height: 79px;
+  width: 40vh;
+  margin: auto;
+}
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 15px;
+}
+#repeat,
+#skip_previous,
+#play_button,
+#skip_next,
+#volume_up {
+  font-size: 37px;
+  color: white;
+}

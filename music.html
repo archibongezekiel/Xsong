@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X-song</title>
+    <!--play // pause-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="music.css" />
+    <link rel="shortcut icon" href="images.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image_container"><img src="asaka.webp" /></div>
+      <div id="title_artie_track">
+        <span id="artie_name">Asake</span>
+        <div class="container_like_title">
+          <span id="song_title">2:30</span>
+          <div id="duration">0:0</div>
+          <span class="material-symbols-outlined" id="favorite">
+            favorite
+          </span>
+        </div>
+      </div>
+
+      <div id="button">
+        <audio src="Asake - 2-30 (NetNaija.com).mp3"></audio>
+        <!--repeat-->
+        <button type="button" id="repeat_one_button">
+          <span class="material-symbols-outlined" id="repeat">repeat</span>
+        </button>
+        <!--skip_previous-->
+        <button type="button" id="skip_previous_button">
+          <span class="material-symbols-outlined" id="skip_previous">
+            skip_previous
+          </span>
+        </button>
+
+        <!--play-->
+        <button type="button" id="play_button">
+          <span class="material-symbols-outlined" id="play_button">
+            play_arrow
+          </span>
+        </button>
+
+        <!--skip_next-->
+        <button type="button" id="skip_next_button">
+          <span class="material-symbols-outlined" id="skip_next">
+            skip_next
+          </span>
+        </button>
+        <!--volume up-->
+        <button type="button" class="volume_ups">
+          <span class="material-symbols-outlined" id="volume_ups">
+            volume_up
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <script src="music.js"></script>
+  </body>
+</html>
