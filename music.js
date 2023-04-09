@@ -76,6 +76,12 @@ volume_up_button.addEventListener("click", volume);
 //
 let text2 = [
   {
+    name: "Asake",
+    song: "Asake - 2-30 (NetNaija.com).mp3",
+    title: "2:30",
+    posted: "asaka.webp",
+  },
+  {
     name: "Young Jonn ft(Olamide)",
     song: "Young Jonn - Currency (feat. Olamide) (NetNaija.com).mp3",
     title: "Currency",
@@ -87,22 +93,23 @@ let text2 = [
     title: "E PAIN ME",
     posted: "david.webp",
   },
+
   {
-    name: "Asake",
-    song: "Asake - 2-30 (NetNaija.com).mp3",
-    title: "2:30",
-    posted: "asaka.webp",
+    name: "Darkoo & Ayra Starr",
+    song: "ayra.mp3",
+    title: "Disturbing U",
+    posted: "ayra.webp",
   },
 ];
 //
 let i = 0;
+
 //
 function back() {
-  i--;
-  if (i === 0) {
-    skip_previous_button.disabled = true;
+  if (i <= 0) {
+    return false;
   }
-  skip_next_button.disabled = false;
+  i--;
   audio.setAttribute("src", text2[i].song);
   artie_name.innerText = text2[i].name;
   song_title.innerText = text2[i].title;
@@ -114,11 +121,10 @@ function back() {
 skip_previous_button.addEventListener("click", back);
 //
 function next() {
-  i++;
-  if (i === 0) {
-    skip_next_button.disabled = true;
+  if (i >= text2.length - 1) {
+    return false;
   }
-  skip_previous_button.disabled = false;
+  i++;
   audio.setAttribute("src", text2[i].song);
   artie_name.innerText = text2[i].name;
   song_title.innerText = text2[i].title;
@@ -145,3 +151,11 @@ audio.addEventListener(
 
   false
 );
+
+let toggles = document.querySelector("#favorite");
+toggles.addEventListener("click", () => {
+  toggles.style.color = "red";
+});
+toggles.addEventListener("dblclick", () => {
+  toggles.style.color = "white";
+});
