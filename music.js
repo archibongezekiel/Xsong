@@ -102,7 +102,7 @@ let text2 = [
   },
   {
     name: "Asaka",
-    song: "joha.mp3",
+    song: "Joha.mp3",
     title: "Joha",
     posted: "asakejoha.jpeg",
   },
@@ -175,5 +175,8 @@ toggles.addEventListener("click", () => {
   toggles.style.color = "red";
 });
 toggles.addEventListener("dblclick", () => {
+  skip_next_button.addEventListener("change", () => {
+    toggles.style.color = "white";
+  });
   toggles.style.color = "white";
 });
