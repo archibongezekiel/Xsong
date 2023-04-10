@@ -109,7 +109,7 @@ let text2 = [
   {
     name: "Asaka",
     song: "terminator.mp3",
-    title: "Joha",
+    title: "Terminator",
     posted: "terminator.jpeg",
   },
   {
