@@ -25,7 +25,6 @@ body {
 }
 img {
   width: 310px;
-
   margin-top: 50px;
 }
 #title_artie_track {
@@ -38,7 +37,7 @@ img {
   margin-top: 90px;
 }
 #artie_name {
-  font-size: 25px;
+  font-size: 24px;
 }
 .container_like_title {
   display: flex;
