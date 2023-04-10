@@ -100,6 +100,24 @@ let text2 = [
     title: "Disturbing U",
     posted: "ayra.webp",
   },
+  {
+    name: "Asaka",
+    song: "joha.mp3",
+    title: "Joha",
+    posted: "asakejoha.jpeg",
+  },
+  {
+    name: "Asaka",
+    song: "terminator.mp3",
+    title: "Joha",
+    posted: "terminator.jpeg",
+  },
+  {
+    name: "Wizkid",
+    song: "money&love.mp3",
+    title: "Money & Love",
+    posted: "bigwiz.jpeg",
+  },
 ];
 //
 let i = 0;
