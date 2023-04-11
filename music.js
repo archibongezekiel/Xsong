@@ -118,6 +118,18 @@ let text2 = [
     title: "Money & Love",
     posted: "bigwiz.jpeg",
   },
+  {
+    name: "Johnny Drille",
+    song: "johnny.mp3",
+    title: "Believe Me",
+    posted: "johnny.webp",
+  },
+  {
+    name: "Chiké",
+    song: "chike.mp3",
+    title: "On Fire",
+    posted: "chike.webp",
+  },
 ];
 //
 let i = 0;
