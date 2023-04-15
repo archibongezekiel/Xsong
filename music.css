@@ -17,7 +17,7 @@ body {
     height: 94vh;
     margin: auto;
     margin-top: 2vh;
-    box-shadow: 1px 2px 44px 4px red;
+    box-shadow: 1px 2px 44px 4px blue;
   }
 }
 
@@ -27,7 +27,7 @@ body {
     height: 90vh;
     margin: auto;
     margin-top: 2vh;
-    box-shadow: 1px 2px 44px 4px blue;
+    box-shadow: 1px 2px 44px 4px red;
   }
   img {
     width: 335px;
@@ -35,6 +35,22 @@ body {
   }
   .image_container {
     width: 400px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    width: 400px;
+    height: 92vh;
+    margin: auto;
+    margin-top: 2vh;
+    box-shadow: 1px 2px 44px 4px red;
+  }
+  img {
+    width: 300px;
+    margin-top: 50px;
+  }
+  .image_container {
+    width: 300px;
   }
 }
 .image_container {
