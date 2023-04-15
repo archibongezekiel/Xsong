@@ -39,7 +39,7 @@ body {
 }
 @media screen and (max-width: 400px) {
   .container {
-    width: 400px;
+    width: 360px;
     height: 90vh;
     margin: auto;
     margin-top: 2vh;
@@ -49,9 +49,7 @@ body {
     width: 200px;
     margin-top: 50px;
   }
-  .image_container {
-    width: 200px;
-  }
+
   #title_artie_track {
     width: 100px;
   }
