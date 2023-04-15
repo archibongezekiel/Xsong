@@ -39,18 +39,18 @@ body {
 }
 @media screen and (max-width: 400px) {
   .container {
-    width: 400px;
+    width: 300px;
     height: 92vh;
     margin: auto;
     margin-top: 2vh;
     box-shadow: 1px 2px 44px 4px red;
   }
   img {
-    width: 300px;
+    width: 200px;
     margin-top: 50px;
   }
   .image_container {
-    width: 300px;
+    width: 200px;
   }
 }
 .image_container {
