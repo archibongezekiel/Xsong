@@ -58,18 +58,19 @@ body {
   }
   .image_container {
     text-align: center;
+    width: 200px;
   }
 }
 
 .image_container {
-  height: 50%;
+  height: 55%;
   position: relative;
   top: 20px;
   margin: auto;
   text-align: center;
 }
 img {
-  width: 300px;
+  width: 325px;
   margin-top: 50px;
 }
 #title_artie_track {
