@@ -40,7 +40,7 @@ body {
 @media screen and (max-width: 400px) {
   .container {
     width: 360px;
-    height: 90vh;
+    height: 92vh;
     margin: auto;
     margin-top: 2vh;
     box-shadow: 1px 2px 44px 4px yellowgreen;
@@ -55,6 +55,9 @@ body {
   }
   #button {
     width: 100px;
+  }
+  .image_container {
+    text-align: center;
   }
 }
 
