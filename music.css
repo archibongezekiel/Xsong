@@ -39,8 +39,8 @@ body {
 }
 @media screen and (max-width: 400px) {
   .container {
-    width: 270px;
-    height: 92vh;
+    width: 300px;
+    height: 90vh;
     margin: auto;
     margin-top: 2vh;
     box-shadow: 1px 2px 44px 4px blue;
@@ -50,18 +50,26 @@ body {
     margin-top: 50px;
   }
   .image_container {
-    width: 200px;
+    width: 300px;
+    height: 200px;
+  }
+  #title_artie_track {
+    width: 300px;
+  }
+  #button {
+    width: 300px;
   }
 }
+
 .image_container {
-  height: 55%;
+  height: 50%;
   position: relative;
   top: 20px;
   margin: auto;
   text-align: center;
 }
 img {
-  width: 325px;
+  width: 300px;
   margin-top: 50px;
 }
 #title_artie_track {
@@ -86,7 +94,6 @@ img {
 #song_title {
   font-size: 15px;
   margin: 5px;
-
   width: 110px;
 }
 #favorite {
