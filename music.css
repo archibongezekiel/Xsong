@@ -39,15 +39,11 @@ body {
 }
 @media screen and (max-width: 400px) {
   .container {
-    width: 380px;
-    height: 92vh;
+    width: 388px;
+    height: 93vh;
     margin: auto;
     margin-top: 2vh;
     box-shadow: 1px 2px 44px 4px yellowgreen;
-  }
-  img {
-    width: 100px;
-    margin-top: 50px;
   }
 
   #title_artie_track {
@@ -55,11 +51,6 @@ body {
   }
   #button {
     width: 100px;
-  }
-  .image_container {
-    text-align: center;
-    width: 100px;
-    height: 20%;
   }
 }
 
