@@ -10,6 +10,7 @@
 }
 body {
   background-color: black;
+  overflow: hidden;
 }
 @media screen and (min-width: 700px) {
   .container {
@@ -42,14 +43,22 @@ body {
     border-radius: 15px;
   }
   img {
-    width: 300px;
+    width: 340px;
   }
   .image_container {
     text-align: center;
-    width: 300gpx;
+    width: 340px;
     margin: auto;
     position: relative;
     top: 100px;
+  }
+  #repeat,
+  #skip_previous,
+  #play_button,
+  #skip_next,
+  #volume_up {
+    font-size: 45px;
+    color: white;
   }
 }
 /* screen size*/
