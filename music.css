@@ -34,7 +34,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .container {
-    width: 400px;
+    width: 600px;
     height: 90vh;
     margin: auto;
     margin-top: 2vh;
@@ -42,11 +42,11 @@ body {
     border-radius: 15px;
   }
   img {
-    width: 200px;
+    width: 300px;
   }
   .image_container {
     text-align: center;
-    width: 205px;
+    width: 300gpx;
     margin: auto;
     position: relative;
     top: 100px;
